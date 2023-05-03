@@ -147,6 +147,8 @@ data = pd.DataFrame({'Train':train['tavg'], 'Val':valid['tavg'], 'Predictions':v
 st.line_chart(data)
 
 st.markdown(f"##### RMSE Score = {round(rmse, 4)}")
+
+
 # st.line_chart(train['tavg'])
 # st.line_chart(valid['tavg'])
 # st.line_chart(valid['Predictions'])
